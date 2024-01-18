@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio paises</title>
+</head>
+<body>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="Enviar" onclick="verificarPais()">
+    <div id="res"></div>
+
+    <script>
+        function verificarPais() {
+            var p = document.getElementById('pais').value
+            var res = document.getElementById('res')
+            if (p === 'Brasil') {
+                res.innerHTML = `<p>Brasileiro</p>`
+            } else {
+                res.innerHTML = `<p>Estrangeiro</p>`
+            }
+        }
+    </script>
+</body>
+</html>
