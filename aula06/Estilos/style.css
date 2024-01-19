@@ -24,3 +24,14 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+ section > .foto > img {
+    border-radius: 20%;
+    width: 50%;
+    height: 50%;
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
