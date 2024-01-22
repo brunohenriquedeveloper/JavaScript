@@ -1,2 +1,2 @@
     let amigo = {}
-console.log( amigo)
+console.log( amigo )
