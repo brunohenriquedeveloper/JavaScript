@@ -1,4 +1,4 @@
-// calculator program
+// calculator Program
 
 const display = document.getElementById("display");
 
