@@ -1,9 +1,9 @@
 //calculator program
 
-const display = document.getElementsByid('inp');
+const display = document.getElementById('inp');
 
 function appendtoDisplay(input) {
-    display.value =+ input;
+    display.value += input;
 }
 
 function clearDisplay(){
