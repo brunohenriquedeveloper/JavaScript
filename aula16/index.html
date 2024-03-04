@@ -9,10 +9,9 @@
 <body>
     <main>
         <div class="calculator">
-        <input type="text" readonly>
+        <input type="text" readonly id="inp">
         <div class="keys">
-            <button onclick="appendtoDisplay('+')" class="operator-btn">+</button>
-        </div>
+        <button onclick="appendtoDisplay('+')" class="operator-btn">+</button>
         <button onclick="appendtoDisplay('7')">7</button>
         <button onclick="appendtoDisplay('8')">8</button>
         <button onclick="appendtoDisplay('9')">9</button>
@@ -29,6 +28,7 @@
         <button onclick="appendtoDisplay('.')">.</button>
         <button onclick="calculate()">=</button>
         <button onclick="clearDisplay()">C</button>
+    </div>
         </div>
     </main>
 
